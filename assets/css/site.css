@@ -1,3 +1,40 @@
 body{
     background-color: silver
 }
+img{
+    display: inline-block; vertical-align: top
+}
+a{
+    display: inline-block;
+    vertical-align: text-top;
+    font-family: Arial;
+    font-size: 15px;
+}
+.mainwindow{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 25px
+}
+.header{
+    padding: 0px 0px 0px 30px;
+    display: inline-block;
+    vertical-align: text-top;
+    background-color: lightgreen;
+    width: 450px;
+    font-size: 25px;
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+}
+.moviepicture{
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+.moviename{
+    display: inline-block;
+    vertical-align: text-top ;
+    font-family: Times New Roman;
+    font-size: 15px"
+}
