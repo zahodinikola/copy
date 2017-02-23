@@ -6,54 +6,46 @@
     <link rel="stylesheet" href="assets\css\site.css">
 </head>
 <body>
-    <div style="background-color: white; margin: 100px 375px 0px 375px; padding: 5px">
+    <div class="substrate">
         <div class="mainwindow">
-            <div>
+            <div class="header">
                 <div>
                     <img src="assets\img\zadumavshiysya-chelovek1-300x300.jpg"
-                    alt="no img" width="50"/>
-                </div>            
-                <div class="header">
-                    <p>Midnight critic</p>
+                    alt="no img">Midnight critic</img>
                 </div>
-            </div>
-  
-            <div>
-                <img class="moviepicture" src="assets\img\trainspotting2.jpg" alt="no img">
-            </div>
-
-            <div class="moviename">
-                <a href="index.html">T2 trainspotting2</a>
-            </div>
-            <div class="info">
-                <div>
-                    <p><b>Creator</b> Danny Boil</p>
-                </div>
-                <div>
-                    <p><b>Year</b> 2017</p>
-                </div>
-                <div>
-                    <p><b>Stars</b> Ewan McGregor, Robert Carlyle, Jonny Lee Miller</p>
-                </div>
-            </div>
-            <hr />
-            <div class="info">
-                <p><span id="asterisc" style="color: red">*</span>Review</p>
-            </div>
-            <form action="http://" method="POST" class="inputReview">
-                <div>
-                    <input type="text" name="inputReview" id="inputReview" />
-                </div>
+            </div> <!--end of header-->
+            <div class="section">
                 <div class="info">
-                    <p id="charLeft">Characters left</p>
-                </div>      
+                    <div class="moviename">
+                        <p>T2 trainspotting2</a>
+                    </div>
+                    <div>
+                        <p><b>Creator</b> Danny Boil</p>
+                    </div>
+                    <div>
+                        <p><b>Year</b> 2017</p>
+                    </div>
+                    <div>
+                        <p><b>Stars</b> Ewan McGregor, Robert Carlyle, Jonny Lee Miller</p>
+                    </div>
+                </div><!--end of info-->
+                <div class="moviepicture">
+                    <img  src="assets\img\trainspotting2.jpg" alt="no img" />
+                </div><!--end of moviepicture-->
+                <hr />
+            </div> <!--end of section-->
+            <div class="footer">
                 <div>
-                    <input type="submit" value="submit" />
-                </div>             
-            </form>
-           
-        </div>
-    </div>
-    <script type="text/javascript" src="js/site.js"></script>
+                    <p><b><span id="asterisc" style="color: red">*</span>Review</b></p>
+                </div>
+                <form action="" method="POST">                    
+                        <input value="null" type="text" name="inputReview" id="inputReview"></input>                    
+                        <div id="charLeft">356 0f 400 characters left</div>                   
+                        <input type="submit" value="submit" />
+                </form>
+            </div> <!-- end of footer-->
+        </div> <!--end of mainwindow-->
+    </div> <!--end of substrate-->
+    <script type="text/javascript" src="js\site.js"></script>
 </body>
 </html>

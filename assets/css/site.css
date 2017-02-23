@@ -1,49 +1,96 @@
 body{
-    background-color: silver
+    background-color: silver;
 }
 img{
-    display: inline-block; vertical-align: top
+    display: inline-block;
+    vertical-align: top;
 }
 a{
     display: inline-block;
     vertical-align: text-top;
-    font-family: Arial;
-    font-size: 15px;
+}
+p{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.listitem img{
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+}
+.listitem div{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 38%;
+}
+.listitem a{
+    width: 8%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.substrate{
+    background-color: white;
+    width: 40%;
+    padding: 1%;
+    margin: 10% 30%;
+    
 }
 .mainwindow{
     background-color: white;
     border: solid 1px black;
-    border-radius: 0px 0px 0px 0px;
-    padding: 10px 10px 10px 25px
-}
-.header{
-    padding: 0px 0px 0px 30px;
-    display: inline-block;
-    vertical-align: text-top;
-    background-color: lightgreen;
-    width: 450px;
-    font-size: 25px;
-    font-family: Lucida Sans;
-    font-weight: bold;
-    font-stretch: ultra-condensed;
-}
-.moviepicture{
-    display: inline-block;
-    vertical-align: top;
-    width: 250px;
-}
-.moviename{
-    display: inline-block;
-    vertical-align: text-top ;
-    font-family: Times New Roman;
-    font-size: 15px;
-}
-.info{
+    padding: 10px;
     font-family: Lucida Sans;
     font-size: 15px;
     font-weight: normal;
 }
+.header{
+    display: inline-block;
+    background-color: lightgreen;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: ultra-condensed;
+}
+
+.header div img{
+    width: 10%;
+}
+.section{
+    display: inline-block;
+    padding: 2%;
+}
+.moviepicture{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    padding: 1%;
+}
+.moviepicture img{
+    width: 100%;
+}
+.moviename{
+    text-align: left;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    background-color: lightgray;
+    font-weight: bold;
+}
+.info{
+    width: 47%;
+    padding: 1%;
+    display: inline-block;  
+}
+.footer{
+    /*display: inline-block;*/
+    width: 100%;
+}
+/*.footer input{
+  
+}*/
 #inputReview{
-    width: 450px;
-    height: 150px;
+    width: 100%;
+    /*height: 50%;*/
+}
+#charLeft{
+    text-align: right;
 }
