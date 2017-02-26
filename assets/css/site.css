@@ -1,18 +1,5 @@
-* {color: maroon}
 body{
     background-color: silver;
-}
-img{
-    display: inline-block;
-    vertical-align: top;
-}
-a{
-    display: inline-block;
-    vertical-align: text-top;
-}
-p{
-    display: inline-block;
-    vertical-align: text-top;
 }
 .listitem img{
     width: 48%;
@@ -54,7 +41,11 @@ p{
 }
 
 .header div img{
+    display: inline-block;
     width: 10%;
+}
+.header div span{
+    display: inline-block;
 }
 .section{
     display: inline-block;
