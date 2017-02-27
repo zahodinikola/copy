@@ -20,8 +20,7 @@ body{
     background-color: white;
     width: 40%;
     padding: 1%;
-    margin: 10% 30%;
-    
+    margin: 10% 30%;    
 }
 .mainwindow{
     background-color: white;
@@ -32,14 +31,12 @@ body{
     font-weight: normal;
 }
 .header{
-    display: inline-block;
     background-color: lightgreen;
     width: 100%;
     font-size: 25px;
     font-weight: bold;
     font-stretch: ultra-condensed;
 }
-
 .header div img{
     display: inline-block;
     width: 10%;
@@ -48,7 +45,7 @@ body{
     display: inline-block;
 }
 .section{
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 2%;
 }
 .moviepicture{
@@ -56,9 +53,6 @@ body{
     vertical-align: top;
     width: 47%;
     padding: 1%;
-}
-.moviepicture img{
-    width: 100%;
 }
 .moviename{
     text-align: left;
@@ -68,20 +62,15 @@ body{
     font-weight: bold;
 }
 .info{
+    display: inline-block;
     width: 47%;
-    padding: 1%;
-    display: inline-block;  
+    padding: 1%;  
 }
 .footer{
-    /*display: inline-block;*/
     width: 100%;
 }
-/*.footer input{
-  
-}*/
 #inputReview{
     width: 100%;
-    /*height: 50%;*/
 }
 #charLeft{
     text-align: right;
