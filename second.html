@@ -10,8 +10,8 @@
         <div class="mainwindow">
             <div class="header">
                 <div>
-                    <img src="assets\img\zadumavshiysya-chelovek1-300x300.jpg"
-                    alt="no img">Midnight critic</img>
+                    <img src="assets\img\zadumavshiysya-chelovek1-300x300.jpg" /img>
+                    <span>Midnight critic</span>
                 </div>
             </div> <!--end of header-->
             <div class="section">
@@ -30,7 +30,7 @@
                     </div>
                 </div><!--end of info-->
                 <div class="moviepicture">
-                    <img  src="assets\img\trainspotting2.jpg" alt="no img" />
+                    <img src="assets\img\trainspotting2.jpg" alt="no img" width="100%"/>
                 </div><!--end of moviepicture-->
                 <hr />
             </div> <!--end of section-->
@@ -39,8 +39,9 @@
                     <p><b><span id="asterisc" style="color: red">*</span>Review</b></p>
                 </div>
                 <form action="" method="POST">                    
-                        <input value="null" type="text" name="inputReview" id="inputReview"></input>                    
-                        <div id="charLeft">356 0f 400 characters left</div>                   
+                        <input type="text" name="inputReview" id="inputReview"
+                        onchange="calculate()"></input>                    
+                        <div id="charLeft"><span>ch</span> 0f 400 characters left</div>                   
                         <input type="submit" value="submit" />
                 </form>
             </div> <!-- end of footer-->

@@ -1,18 +1,5 @@
-* {color: maroon}
 body{
     background-color: silver;
-}
-img{
-    display: inline-block;
-    vertical-align: top;
-}
-a{
-    display: inline-block;
-    vertical-align: text-top;
-}
-p{
-    display: inline-block;
-    vertical-align: text-top;
 }
 .listitem img{
     width: 48%;
@@ -33,8 +20,7 @@ p{
     background-color: white;
     width: 40%;
     padding: 1%;
-    margin: 10% 30%;
-    
+    margin: 10% 30%;    
 }
 .mainwindow{
     background-color: white;
@@ -45,19 +31,21 @@ p{
     font-weight: normal;
 }
 .header{
-    display: inline-block;
     background-color: lightgreen;
     width: 100%;
     font-size: 25px;
     font-weight: bold;
     font-stretch: ultra-condensed;
 }
-
 .header div img{
+    display: inline-block;
     width: 10%;
 }
-.section{
+.header div span{
     display: inline-block;
+}
+.section{
+    /*display: inline-block;*/
     padding: 2%;
 }
 .moviepicture{
@@ -65,9 +53,6 @@ p{
     vertical-align: top;
     width: 47%;
     padding: 1%;
-}
-.moviepicture img{
-    width: 100%;
 }
 .moviename{
     text-align: left;
@@ -77,20 +62,15 @@ p{
     font-weight: bold;
 }
 .info{
+    display: inline-block;
     width: 47%;
-    padding: 1%;
-    display: inline-block;  
+    padding: 1%;  
 }
 .footer{
-    /*display: inline-block;*/
     width: 100%;
 }
-/*.footer input{
-  
-}*/
 #inputReview{
     width: 100%;
-    /*height: 50%;*/
 }
 #charLeft{
     text-align: right;
