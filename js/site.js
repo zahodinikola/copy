@@ -1,12 +1,11 @@
 var asterisc = document.getElementById ("asterisc");
-var inputReview = document.getElementById ("inputReview");
-if (!inputReview.length) asterisc.innerHTML = '<span style="color: black">*</span>';
 
 function calculate(){
-    var inputReview = document.getElementById("inputReview");
-    var ch = inputReview.length;
-    alert(ch);
-    var charleft = document.getElementById("charLeft");
-
-    charLeft.innerHTML = "<span>ch + </span>"
+    var inputReview = document.getElementById("inputReview").value;
+    var charsEntered = inputReview.length;
+    if (charsEntered) asterisc.style.color = "black"
+        else asterisc.style.color = "red";
+ //   alert(ch);
+    var charLeftMsg = document.getElementById("charLeft");
+    charLeftMsg.innerHTML = "" + 400 - charsEntered + " characters left";
 }

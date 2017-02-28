@@ -39,14 +39,24 @@
                     <p><b><span id="asterisc" style="color: red">*</span>Review</b></p>
                 </div>
                 <form action="" method="POST">                    
-                        <input type="text" name="inputReview" id="inputReview"
-                        onchange="calculate()"></input>                    
-                        <div id="charLeft"><span>ch</span> 0f 400 characters left</div>                   
-                        <input type="submit" value="submit" />
+                        <textarea autofocus maxlength = "400"
+                        cols="60" rows="7"
+                        name="inputReview" id="inputReview"
+                        oninput="calculate()">input here</textarea>                    
+                        <div id="charLeft"></div>                   
+                        <div id="submit" >
+                            <input type="submit" value="submit"/>
+                        </div>
                 </form>
             </div> <!-- end of footer-->
         </div> <!--end of mainwindow-->
     </div> <!--end of substrate-->
     <script type="text/javascript" src="js\site.js"></script>
+    <script type="text/javascript">
+    window.onload = function(){
+        calculate();
+    }   
+    </script>
+
 </body>
 </html>
